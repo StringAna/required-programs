@@ -1,3 +1,4 @@
+// WAP to find whether an entered string is a Palindrome. Try doing it in N/2 iteration.
 #include<stdio.h>
 #include<string.h>
 
