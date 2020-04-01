@@ -1,3 +1,9 @@
+/*This code is from geeksforgeeks. The logic for this is explained in a YouTube video.I am linking them both down 
+here
+The video  :  https://youtu.be/UflHuQj6MVA
+The code   :  https://www.geeksforgeeks.org/longest-palindrome-substring-set-1/
+*/
+
 #include<iostream>
 #include<string.h>
 using namespace std;
