@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main()
+{
+    int max_ones=0, max_ones_count=0, max_row, size;
+    printf("Enter the size of(square) array containing zeros and ones:");
+    scanf("%d",&size);
+    
+    int A[size][size];
+    
+    printf("\nEnter entries of zeros and ones in the array:");
+    for(int i=0; i<size; i++)
+        for( int j=0; j<size; j++)
+        scanf("%d",&A[i][j]);
+        
+    for(int row=0; row<size; row++,  max_ones_count=0)
+    {
+        for(  int column=0; column<size; column++ )
+        {
+            if( A[row][column] == 1 )
+                max_ones_count++;
+        }
+        
+        if( max_ones_count > max_ones )
+        {
+            max_ones = max_ones_count;
+            max_row = row;
+        }
+    }
+        
+    printf("\n");
+    printf("Index of Row having maximum number of ones is %d \nNumber of ones in the row is %d",max_row, max_ones );
+
+    return 0;
+}
