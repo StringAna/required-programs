@@ -1,3 +1,3 @@
 # required-programs
-This contains programs that are mandatory to become a good programmer
+Programs required to learn the "how to" of programming.
 (executed on dev c++)
